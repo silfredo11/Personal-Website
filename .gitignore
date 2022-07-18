@@ -1,0 +1,9 @@
+
+*.prettierignore
+*.jpg
+*.web
+*.svg
+*.Identifier
+*.xml
+*json
+*.ico
