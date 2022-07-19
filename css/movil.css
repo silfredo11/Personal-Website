@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    align-items: none;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+:root{
+    --prymari-color: #15171A;
+    --description-color: #738A94;
+    --text-color: #FFFFFF;
+    --principal-text-color: #434952;
+    --description-perfil-color: #90A2AA;
+    --border-color: #E6E9ED;
+    --content-color: #303a3e;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--prymari-color);
+}
+.header-nav{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav__logo{
+    display: flex;
+    align-items: center;
+}
+.header-nav__logo div{
+    width: 60px;
+    height: 60px;
+    background-image: url("https://i.postimg.cc/xTsSmq48/perfil-6000x6000.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.header-nav__logo p{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin-left: 10px;
+
+}
+.header-nav__icon i{
+    width: 60px;
+    height: 60px;
+    filter: invert(1);
+    cursor: pointer;
+}
+.header-nav__icon i img{
+    max-width: 100%;
+    height: 40px;
+}
+.header-nav__menu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 0vh;
+    top: 80px;
+    right: 0;
+    background-color: var(--prymari-color);
+    text-align: center;
+    transition: all.5;
+}
+.header-nav__menu li{
+    display: none;
+    transition: all -5%;
+    margin: 10px 0;
+}
+.header-nav__menu li a:hover{
+    border-bottom: 1px solid var(--description-color);
+}
+.header-nav__menu li a{
+    color: var(--text-color);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .header-nav__menu{
+    height: 170px;
+}
+#check:checked ~ .header-nav__menu li{
+    display: block;
+}
+@media screen and (min-width:768px){
+    .header-nav__icon{
+        display: none;
+    }
+    .header-nav__menu{
+        flex-direction: row;
+        position: relative;
+        width: auto;
+        height: 80px;
+        top: 0;
+        transition: none;
+        text-align: none;
+        align-items: center;
+    }
+    .header-nav__menu li{
+        display: inline-block;
+        margin: 0 0 0 40px;
+        transition: none;
+    }
+    .header-nav__menu li a{
+        font-size: 1.4rem;
+    }
+}
