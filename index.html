@@ -11,31 +11,65 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="header-nav">
+    <header class="header">
+        <nav class="header__nav">
 
-            <section class="header-nav__logo">
-                <div></div>
-                <p>SILFREDO IBARRA</p>
+            <section class="header__section">
+                <div class="header__logo"></div>
+                <p class="header__name">SILFREDO IBARRA</p>
             </section>
 
             <input type="checkbox" id="check">
-            <label for="check" class="header-nav__icon">
-                <i>
-                    <img src="https://img.icons8.com/ios-glyphs/344/menu--v1.png" alt="Logo del menu hambrguesa">
+            <label for="check" class="header__label">
+                <i class="header__i">
+                    <img src="https://img.icons8.com/ios-glyphs/344/menu--v1.png" alt="Logo del menu hambrguesa" class="header__img">
                 </i>
             </label>
 
-            <ul class="header-nav__menu">
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/portafolio.html">PORTAFOLIO</a></li>
-                <li><a href="/blog.html">BLOG</a></li>
-                <li><a href="/tutorial.html">TUTORIAL</a></li>
+            <ul class="header__ul">
+                <li class="header__li"><a href="/index.html" class="header__a">HOME</a></li>
+                <li class="header__li"><a href="/portafolio.html" class="header__a">PORTAFOLIO</a></li>
+                <li class="header__li"><a href="/blog.html" class="header__a">BLOG</a></li>
+                <li class="header__li"><a href="/tutorial.html" class="header__a">TUTORIAL</a></li>
             </ul>
             
         </nav>
     </header>
-    <main>
+    <main class="main">
+
+        <div class="main__container">
+
+            <section class="profile">
+
+                <picture class="profile__picture">
+                    <img src="https://i.postimg.cc/xTsSmq48/perfil-6000x6000.jpg" alt="" class="profile__image">
+                </picture>
+                <h1 class="profile__h1">Silfredo Mario Ibarra Garcia</h1>
+                <p class="profile__aboutme">Estudiante de desarrollo web e inglés en platzi, apasionado por el aprendizaje, la tecnología, la música y la sociedad. Aventurero y arriesgado por naturaleza</p>
+
+            </section>
+
+            <section class="card">
+
+                <h2 class="card__title">Mi primer post</h2>
+                <div class="card__image card__image--post"></div>
+                <h3 class="card__subtitle">5 factores que me ayudaron a superar la frustración</h3>
+                <p class="card__information">“Al igual que tú, yo también estuve frustrado por vivir en un mundo de comparaciones. En el año 2017 cumplí 19 años y aún recuerdo la frustración que ”</p>
+                <button class="card__button button"><a href="/blogFrustracion.html" class="card__a button__a">Leer más</a></button>
+
+            </section>
+
+            <section class="card container__card--margin">
+
+                <h2 class="card__title">Mi mejor proyecto</h2>
+                <div class="card__image card__image--project"></div>
+                <h3 class="card__subtitle">Nasa Website</h3>
+                <p class="card__information">Este proyecto tiene como propósito hacer alusión a lo que sería un sitio web de la NASA, Esta construido con HTML,CSS, Transiciones y animaciones de CSS.</p>
+                <button class="card__button button"><a href="/blogFrustracion.html" class="card__a button__a">Leer más</a></button>
+
+            </section>
+
+        </div>
 
     </main>
     <footer class="footer">

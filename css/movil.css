@@ -19,25 +19,25 @@ html{
     --content-color: #303a3e;
 }
 
-header{
+.header{
     width: 100%;
     height: 80px;
     display: flex;
     justify-content: center;
     background-color: var(--prymari-color);
 }
-.header-nav{
+.header__nav{
     width: 95%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.header-nav__logo{
+.header__section{
     display: flex;
     align-items: center;
 }
-.header-nav__logo div{
+.header__logo{
     width: 60px;
     height: 60px;
     background-image: url("https://i.postimg.cc/xTsSmq48/perfil-6000x6000.jpg");
@@ -46,23 +46,23 @@ header{
     background-position: center;
     border-radius: 50%;
 }
-.header-nav__logo p{
+.header__name{
     font-size: 1.4rem;
     color: var(--text-color);
     margin-left: 10px;
 
 }
-.header-nav__icon i{
+.header__i{
     width: 60px;
     height: 60px;
     filter: invert(1);
     cursor: pointer;
 }
-.header-nav__icon i img{
+.header__img{
     max-width: 100%;
     height: 40px;
 }
-.header-nav__menu{
+.header__ul{
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -74,15 +74,15 @@ header{
     text-align: center;
     transition: all.5;
 }
-.header-nav__menu li{
+.header__li{
     display: none;
     transition: all -5%;
     margin: 10px 0;
 }
-.header-nav__menu li a:hover{
+.header__a:hover{
     border-bottom: 1px solid var(--description-color);
 }
-.header-nav__menu li a{
+.header__a{
     color: var(--text-color);
     font-size: 1.3rem;
     text-transform: uppercase;
@@ -91,17 +91,17 @@ header{
 #check{
     display: none;
 }
-#check:checked ~ .header-nav__menu{
+#check:checked ~ .header__ul{
     height: 170px;
 }
-#check:checked ~ .header-nav__menu li{
+#check:checked ~ .header__ul li{
     display: block;
-}
+} 
 @media screen and (min-width:768px){
-    .header-nav__icon{
+    .header__label{
         display: none;
     }
-    .header-nav__menu{
+    .header__ul{
         flex-direction: row;
         position: relative;
         width: auto;
@@ -111,14 +111,102 @@ header{
         text-align: none;
         align-items: center;
     }
-    .header-nav__menu li{
+    .header__li{
         display: inline-block;
         margin: 0 0 0 40px;
         transition: none;
     }
-    .header-nav__menu li a{
+    .header__a{
         font-size: 1.4rem;
     }
+}
+/* Here start the index main */
+.main{
+    display: grid;
+    place-items: center;
+}
+.main__container{
+    width: 95%;
+    height: auto;
+    display: grid;
+    margin-top: 20px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.profile__image{
+    width: 204px;
+    height: 253px;
+    object-fit: cover;
+}
+.profile__h1{
+    font-size: 2.6rem;
+    font-weight: 500;
+    margin-top: 10px;
+    color: var(--prymari-color);
+}
+.profile__aboutme{
+    color: var(--description-color);
+    font-size: 2.0rem;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+.card{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--description-color);
+}
+.card__title{
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--prymari-color);
+}
+.card__image{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card__image--post{
+    background-image: url("https://images.pexels.com/photos/3244604/pexels-photo-3244604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.card__image--project{
+    background-image: url("https://i.postimg.cc/37nwQdwR/Nasa-website.png");
+}
+.card__subtitle{
+    color: var(--prymari-color);
+    font-size: 2.0rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.card__information{
+    color:var(--description-color);
+    font-size: 1.6rem;
+    line-height: 28px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.button{
+   width: 140px;
+   height: 60px;
+   border: none;
+   border-radius: 8px;
+   background-color: var(--border-color);
+   border: 1px solid var(--description-color);
+   margin-top: 10px;
+   
+}
+.button__a{
+    font-size: 1.8rem;
+    color: var(--prymari-color);
 }
 
 /* Here start the footer code */
