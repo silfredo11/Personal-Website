@@ -125,7 +125,7 @@ html{
     display: grid;
     place-items: center;
 }
-.main__container{
+.container{
     width: 95%;
     height: auto;
     display: grid;
@@ -209,6 +209,27 @@ html{
     color: var(--prymari-color);
 }
 
+
+.technologys{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.technologys__title{
+    font-size: 2.2rem;
+    color: var(--prymari-color);
+    font-weight: 500;
+}
+.technologys__ul{
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.technologys__li{
+    list-style-type: disc;
+    font-size: 1.6rem;
+    margin-left: 10px;
+}
 /* Here start the footer code */
 
 .footer{
