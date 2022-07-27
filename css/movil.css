@@ -126,7 +126,7 @@ html{
     place-items: center;
 }
 .container{
-    width: 95%;
+    width: 90%;
     height: auto;
     display: grid;
     margin-top: 20px;
@@ -195,8 +195,8 @@ html{
     margin-top: 10px;
 }
 .button{
-   width: 140px;
-   height: 60px;
+   width: 120px;
+   height: 40px;
    border: none;
    border-radius: 8px;
    background-color: var(--border-color);
@@ -221,6 +221,7 @@ html{
     font-size: 2.2rem;
     color: var(--prymari-color);
     font-weight: 500;
+    margin-bottom: 20px;
 }
 .technologys__ul{
     margin-top: 10px;
@@ -233,6 +234,51 @@ html{
     list-style-type: disc;
     font-size: 1.6rem;
     margin-left: 10px;
+}
+
+/* Here start the tutorial code */
+.gratitude__title{
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--prymari-color);
+    margin: 20px 0;
+}
+.gratitude__info{
+    color: var(--description-perfil-color);
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.projects{
+    padding-top: 20px;
+    border-top: 1px solid var(--description-perfil-color);
+    margin-top: 20px;
+}
+.projects__h2{
+    font-size: 2.2rem;
+    color: var(--prymari-color);
+    font-weight: 400;
+    text-align: center;
+}
+.card--border{
+    border: none;
+    padding: 0;
+}
+
+.card__image--nasaWebsite{
+    background-image: url("https://i.postimg.cc/bvWgq99g/Nasa-website-1.png");
+}
+.card__image--legoWebsite{
+    background-image: url("https://i.postimg.cc/T36Y4KL4/Lego-website-1.png");
+}
+.card__image--nftCard{
+    background-image: url("https://i.postimg.cc/bNQqkqCH/nftcard-1.png");
+}
+.card__image--resumenDeCompra{
+    background-image: url("https://i.postimg.cc/9M6jwkyn/resumen-de-compra-1.png");
 }
 /* Here start the footer code */
 
