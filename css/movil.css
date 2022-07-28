@@ -237,6 +237,7 @@ html{
 }
 
 /* Here start the tutorial code */
+
 .gratitude__title{
     font-size: 2.4rem;
     font-weight: 500;
@@ -279,6 +280,21 @@ html{
 }
 .card__image--resumenDeCompra{
     background-image: url("https://i.postimg.cc/9M6jwkyn/resumen-de-compra-1.png");
+}
+
+/* Here start the blog page */
+.container__h2{
+    font-size: 2.2rem;
+}
+.card__border{
+    border: none;
+    padding: 0;
+}
+.card__image--alcoholismo{
+    background-image: url("https://cdn.pixabay.com/photo/2014/08/26/20/08/man-428392_960_720.jpg");
+}
+.card__image--pasado{
+    background-image: url("https://cdn.pixabay.com/photo/2016/09/29/09/59/clock-1702512_960_720.jpg");
 }
 /* Here start the footer code */
 
