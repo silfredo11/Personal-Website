@@ -296,6 +296,15 @@ html{
 .card__image--pasado{
     background-image: url("https://cdn.pixabay.com/photo/2016/09/29/09/59/clock-1702512_960_720.jpg");
 }
+
+/* Here start the tutorial page */
+
+.card__image--liveSErver{
+    background-image: url("https://i.postimg.cc/T2D4mzSG/la-copia.jpg");
+}
+.card__image--ubuntu{
+    background-image: url("https://i.postimg.cc/2jM0S08J/ubuntu.jpg");
+}
 /* Here start the footer code */
 
 .footer{
