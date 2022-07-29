@@ -451,6 +451,17 @@ html{
 }.tutorial__div--liveServer4{
     background-image: url("https://i.postimg.cc/YqHKqDLS/3-LI.jpg");
 }
+
+/* Here start the ubutu tutorial */
+
+.tutorial__div--liveServer1{
+    background-image: url("https://i.ibb.co/Z2jkMWv/comando.png");
+    margin-bottom: 20px;
+}
+.tutorial__div--liveServer2{
+    background-image: url("https://i.ibb.co/F5m9JNW/Carpeta.png");
+}
+
 /* Here start the footer code */
 
 .footer{
