@@ -400,6 +400,57 @@ html{
     background-image: url("https://cdn.pixabay.com/photo/2020/07/18/18/28/sunset-5417966_960_720.jpg");
 }
 
+/* Here start the style for la maquina del tiempo blog */
+
+.coverPage__h2--color{
+    color: var(--prymari-color);
+}
+.coverPage--laMaquinaDelTiempo{
+    background-image: url("https://cdn.pixabay.com/photo/2016/09/29/09/59/clock-1702512_960_720.jpg");
+}
+
+
+/* Here start the style for live server tutorial */
+
+.tutorial__h2{
+    font-size: 2.2rem;
+    color: var(--prymari-color);
+}
+.tutorial__p{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: var(--description-color);
+    margin-top: 20px;
+}
+.tutorial__ol{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.tutorial__li{
+    list-style: decimal-leading-zero;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: var(--description-color);
+}
+.tutorial__div{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tutorial__div--liveServer1{
+    background-image: url("https://i.postimg.cc/YqHKqDLS/3-LI.jpg");
+}
+.tutorial__div--liveServer2{
+    background-image: url("https://i.postimg.cc/nL6SSMvL/3.png");
+}
+.tutorial__div--liveServer3{
+    background-image: url("https://i.postimg.cc/85zc3PDq/1-2.png");
+}.tutorial__div--liveServer4{
+    background-image: url("https://i.postimg.cc/YqHKqDLS/3-LI.jpg");
+}
 /* Here start the footer code */
 
 .footer{
