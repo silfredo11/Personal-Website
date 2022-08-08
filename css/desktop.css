@@ -1,0 +1,36 @@
+/* Aqui inicia los estilos para el header en versiones desktop */
+
+
+/* Aqui inicia los estilos para el footer en versiones desktop */
+.footer__container{
+    width: 80%;
+}
+.footer__socialMedias{
+    flex-direction: row;
+}
+
+.footer__name{
+    font-size: 1.8rem;
+}
+.footer__gratitude{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    margin-left: 40px;
+}
+.footer__socialMedia--margin{
+    margin-left: 20px;
+}
+.profile{
+    display: none;
+}
+.card--margin{
+    margin-top: 40px;
+}
+.coverPage__h2{
+    font-size: 4rem;
+}
+.container__info{
+    width: 50%;
+    place-self: center;
+    margin-top: 40px;
+}

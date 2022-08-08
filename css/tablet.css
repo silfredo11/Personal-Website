@@ -1,0 +1,71 @@
+.header__label{
+    display: none;
+}
+.header__ul{
+    flex-direction: row;
+    position: relative;
+    width: auto;
+    height: 80px;
+    top: 0;
+    transition: none;
+    text-align: none;
+    align-items: center;
+}
+.header__li{
+    display: inline-block;
+    margin: 0 0 0 40px;
+    transition: none;
+}
+.header__a{
+    font-size: 1.4rem;
+}
+
+/* Aqui inician los estilos del footer para tablet */
+.footer__container{
+    width: 80%;
+}
+.footer__gratitude{
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    margin: 0 0 0 30px;
+}
+/* Here start the index main */
+
+.container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    margin-top: 20px;
+    place-items: center;
+}
+.profile__image{
+    width: 300px;
+    height: 353px;
+}
+.profile__h1{
+    font-size: 3rem;
+    line-height: 4.5rem;
+}
+.card, .profile,.technologys{
+    width: 90%;
+}
+
+.card__container{
+    flex-direction: row;
+}
+.card__image{
+    width: 50%;
+}
+.card__div{
+    width: 50%;
+    margin-left: 20px;
+}
+.card--width{
+    width: 80%;
+}
+.technologys__title{
+    text-align: center;
+}
+.technologys__ul{
+    grid-template-columns: repeat(3, 1fr);
+}
