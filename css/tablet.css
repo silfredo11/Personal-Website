@@ -59,13 +59,15 @@
 .card__div{
     width: 50%;
     margin-left: 20px;
+    justify-content: center;
 }
 .card--width{
     width: 80%;
 }
-.technologys__title{
-    text-align: center;
-}
-.technologys__ul{
-    grid-template-columns: repeat(3, 1fr);
+.display{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
 }
