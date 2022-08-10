@@ -78,8 +78,16 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: 20px;
-    
 }
 .card__display{
     height: 250px;
+}
+.container, .tutorial{
+    width: 80%;
+}
+.tutorial__h2{
+    text-align: center;
+}
+.tutorial__li{
+    margin: 20px 0;
 }

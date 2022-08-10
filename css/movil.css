@@ -104,7 +104,7 @@ html{
     display: grid;
     place-items: center;
 }
-.container{
+.container, .tutorial{
     width: 90%;
     height: auto;
     display: grid;

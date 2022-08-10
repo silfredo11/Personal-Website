@@ -62,3 +62,15 @@
 .container__h2{
     font-size: 4rem;
 }
+.container, .tutorial{
+    width: 70%;
+}
+.tutorial__h2{
+    font-size: 4rem;
+}
+.tutorial__p{
+    font-size: 2rem;
+}
+.tutorial__li{
+    font-size: 1.8rem;
+}
