@@ -82,7 +82,7 @@
 .card__display{
     height: 250px;
 }
-.container, .tutorial{
+.tutorial{
     width: 80%;
 }
 .tutorial__h2{
