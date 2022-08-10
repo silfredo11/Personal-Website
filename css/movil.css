@@ -132,7 +132,7 @@ html{
     text-align: center;
 }
 .profile__aboutme{
-    color: var(--description-color);
+    color: var(--prymari-color);
     font-size: 2.0rem;
     font-weight: 300;
     line-height: 30px;
@@ -199,7 +199,7 @@ html{
     margin-top: 20px;
 }
 .card__information{
-    color:var(--description-color);
+    color: var(--prymari-color);
     font-size: 1.6rem;
     line-height: 28px;
     font-weight: 300;
@@ -241,7 +241,7 @@ html{
     margin: 20px 0;
 }
 .gratitude__info{
-    color: var(--description-perfil-color);
+    color: var(--prymari-color);
     font-size: 1.6rem;
     line-height: 2.8rem;
     font-weight: 300;
@@ -332,7 +332,7 @@ html{
     font-size: 2rem;
     font-weight: 400;
     line-height: 32px;
-    color: var(--description-color);
+    color: var(--prymari-color);
     margin-top: 20px;
 }
 .info__img{
@@ -360,7 +360,7 @@ html{
     font-size: 2rem;
     font-weight: 400;
     line-height: 32px;
-    color: var(--content-color);
+    color: var(--prymari-color);
     margin-top: 20px;
 }
 
@@ -397,7 +397,7 @@ html{
 .tutorial__p{
     font-size: 1.6rem;
     line-height: 2.8rem;
-    color: var(--description-color);
+    color: var(--prymari-color);
     margin-top: 20px;
 }
 .tutorial__ol{
@@ -408,7 +408,7 @@ html{
     list-style: decimal-leading-zero;
     font-size: 1.6rem;
     line-height: 2.8rem;
-    color: var(--description-color);
+    color: var(--prymari-color);
 }
 .tutorial__div{
     width: 100%;
