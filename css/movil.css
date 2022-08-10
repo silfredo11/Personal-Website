@@ -248,6 +248,9 @@ html{
     text-align: center;
 }
 
+.container__h2{
+    font-size: 2.2rem;
+}
 
 .card--border{
     border: none;

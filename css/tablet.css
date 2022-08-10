@@ -68,6 +68,9 @@
 .card__border{
     border: none;
 }
+.card--direction{
+    flex-direction: row;
+}
 .display{
     width: 90%;
     height: auto;
