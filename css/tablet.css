@@ -55,6 +55,7 @@
 }
 .card__image{
     width: 50%;
+    border-radius: 12px 0 0 12px;
 }
 .card__div{
     width: 50%;

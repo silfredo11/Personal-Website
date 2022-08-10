@@ -20,9 +20,6 @@
 .footer__socialMedia--margin{
     margin-left: 20px;
 }
-/* .profile{
-    display: none;
-} */
 .profile__aboutme{
     width: 70%;
 }
@@ -46,4 +43,7 @@
 }
 .display{
     grid-template-columns: repeat(3, 1fr);
+}
+.written{
+    width: 80%;
 }

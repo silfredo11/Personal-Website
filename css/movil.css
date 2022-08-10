@@ -17,6 +17,7 @@ html{
     --description-perfil-color: #90A2AA;
     --border-color: #E6E9ED;
     --content-color: #303a3e;
+
 }
 
 .header{
@@ -142,7 +143,7 @@ html{
     display: flex;
     flex-direction: column;
     margin-top: 40px;
-    width: 80%;
+    width: 100%;
     border-top: none;
     padding: 0;
 }
@@ -153,7 +154,10 @@ html{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     box-shadow: 8px 14px 38px rgb(39 44 49 / 6%), 1px 3px 8px rgb(39 44 49 / 3%);
+    padding: 10px 0;
+    border-radius: 8px;
 }
 .card--borderTop{
     border-top: none;
@@ -173,7 +177,10 @@ html{
     background-position: center;
 }
 .card__image{
-    border-radius: 12px 0 0 12px;
+    border-radius: 12px 12px 0 0;
+}
+.card__display{
+    border-radius: 12px 12px 0 0;
 }
 .card__div{
     display: flex;
@@ -241,20 +248,9 @@ html{
     text-align: center;
 }
 
-.projects{
-    padding-top: 20px;
-    border-top: 1px solid var(--description-perfil-color);
-    margin-top: 20px;
-}
-.projects__h2{
-    font-size: 2.2rem;
-    color: var(--prymari-color);
-    font-weight: 400;
-    text-align: center;
-}
+
 .card--border{
     border: none;
-    padding: 0;
 }
 
 .card__image--nasaWebsite{
