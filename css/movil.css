@@ -138,26 +138,29 @@ html{
     text-align: center;
 }
 
+.written{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 80%;
+    border-top: none;
+    padding: 0;
+}
+
 .card{
     width: 100%;
     height: auto;
     margin-top: 20px;
-    padding-top: 20px;
-    border-top: 1px solid var(--border-color);
     display: flex;
     flex-direction: column;
+    box-shadow: 8px 14px 38px rgb(39 44 49 / 6%), 1px 3px 8px rgb(39 44 49 / 3%);
 }
 .card--borderTop{
     border-top: none;
     margin-top: 0;
     padding-top: 0;
 }
-.card__title{
-    font-size: 2.2rem;
-    font-weight: 500;
-    margin-bottom: 20px;
-    color: var(--prymari-color);
-}
+
 .card__container{
     display: flex;
     flex-direction: column;
@@ -168,6 +171,9 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.card__image{
+    border-radius: 12px 0 0 12px;
 }
 .card__div{
     display: flex;

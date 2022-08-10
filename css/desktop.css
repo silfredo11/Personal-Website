@@ -33,7 +33,7 @@
     font-size: 4rem;
 }
 .container__info{
-    width: 50%;
+    width: 80%;
     place-self: center;
     margin-top: 40px;
 }
@@ -45,8 +45,5 @@
     line-height: 30px;
 }
 .display{
-   
     grid-template-columns: repeat(3, 1fr);
-    
-    
 }
