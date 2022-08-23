@@ -159,6 +159,11 @@ html{
     padding: 10px 0;
     border-radius: 8px;
 }
+.card__subtitle--padding, .card__information--padding, .card__button--padding{
+    margin: 0 10px 0 10px;
+}
+
+
 .card--borderTop{
     border-top: none;
     margin-top: 0;
