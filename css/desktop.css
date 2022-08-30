@@ -1,4 +1,10 @@
 /* Aqui inicia los estilos para el header en versiones desktop */
+.header__li{
+    margin: 0 0 0 60px;
+}
+.header__a, .header__name{
+    font-size: 1.6rem;
+}
 
 
 /* Aqui inicia los estilos para el footer en versiones desktop */

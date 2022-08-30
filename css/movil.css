@@ -53,51 +53,60 @@ html{
     margin-left: 10px;
 
 }
-.header__i{
+.picture{
     width: 60px;
-    height: 60px;
+    height: 40px;
     filter: invert(1);
     cursor: pointer;
 }
-.header__img{
+.picture__image{
     max-width: 100%;
     height: 40px;
 }
 .header__ul{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 0vh;
-    top: 80px;
-    right: 0;
-    background-color: var(--prymari-color);
-    text-align: center;
-    transition: all.5;
-}
-.header__li{
     display: none;
-    transition: all -5%;
-    margin: 10px 0;
 }
 .header__a:hover{
     border-bottom: 1px solid var(--description-color);
 }
 .header__a{
     color: var(--text-color);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.innactive{
+    display: none;
+}
+.mobileMenu{
+    width: 30%;
+    height: 140px;
+    position: absolute;
+    top: 81px;
+    right: 0;
+    background-color: var(--prymari-color);
+    text-align: center;
+}
+.mobilMenu__ul{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.mobilMenu__li{
+    margin: 10px 0;
+}
+.mobilMenu__a:hover{
+    border-bottom: 1px solid var(--description-color);
+}
+.mobilMenu__a{
+    color: var(--text-color);
     font-size: 1.3rem;
     text-transform: uppercase;
     font-weight: 400;
 }
-#check{
-    display: none;
-}
-#check:checked ~ .header__ul{
-    height: 170px;
-}
-#check:checked ~ .header__ul li{
-    display: block;
-} 
 
 /* Here start the index main */
 .main{

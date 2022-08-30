@@ -2,22 +2,20 @@
     display: none;
 }
 .header__ul{
+    display: flex;
     flex-direction: row;
-    position: relative;
-    width: auto;
-    height: 80px;
-    top: 0;
-    transition: none;
-    text-align: none;
-    align-items: center;
 }
 .header__li{
-    display: inline-block;
     margin: 0 0 0 40px;
-    transition: none;
 }
-.header__a{
+.header__a, .header__name{
     font-size: 1.4rem;
+}
+.mobileMenu{
+    display: none;
+}
+.picture{
+   display: none;
 }
 
 /* Aqui inician los estilos del footer para tablet */
