@@ -151,7 +151,6 @@ html{
 .written{
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
     width: 100%;
     border-top: none;
     padding: 0;

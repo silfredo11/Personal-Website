@@ -8,6 +8,7 @@ En este proyecto estoy realizando una pagina web que sera my sitio web personal,
 
 - HTML5
 - CSS3
+- JavaScript
 - Variables de CSS
 - Animaciones
 - Transiciones  de CSS

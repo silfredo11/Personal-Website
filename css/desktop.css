@@ -39,7 +39,6 @@
 .container__info{
     width: 80%;
     place-self: center;
-    margin-top: 40px;
 }
 .card__subtitle{
     font-size: 2.4rem;
