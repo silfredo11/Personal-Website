@@ -29,12 +29,30 @@
 .profile__aboutme{
     width: 70%;
 }
+.coverPage{
+    width: 70%;
+    height: 450px;
+    margin-top: 20px;
+}
+.info{
+    width: 60%;
+}
 .card--margin{
     margin-top: 40px;
 }
+.coverPage__h1,.written__h2{
+    font-size: 3rem;
+    line-height: 45px;
+    width: 60%;
+}
+.written__h2{
+    text-align: start;
+}
 .coverPage__h2{
-    font-size: 4rem;
-    line-height: 60px;
+    width: 60%;
+ 
+    
+    margin-top: 20px;
 }
 .container__info{
     width: 80%;
@@ -51,7 +69,7 @@
     grid-template-columns: repeat(3, 1fr);
 }
 .written{
-    width: 80%;
+    width: 60%;
 }
 .gratitude{
     display: flex;
