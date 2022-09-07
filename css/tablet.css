@@ -90,7 +90,8 @@
     margin: 20px 0;
 }
 .info__img{
-  
     height: 540px;
-
+}
+.info, .written{
+    width: 80%;
 }
