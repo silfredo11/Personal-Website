@@ -11,12 +11,13 @@
 .header__a, .header__name{
     font-size: 1.4rem;
 }
+.header__hamburguer{
+    display: none;
+}
 .mobileMenu{
     display: none;
 }
-.picture{
-   display: none;
-}
+
 
 /* Aqui inician los estilos del footer para tablet */
 .footer{

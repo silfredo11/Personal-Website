@@ -1,4 +1,4 @@
-const hamburguerMenu = document.querySelector('.picture__image');
+const hamburguerMenu = document.querySelector('.header__hamburguer');
 const mobilMnu= document.querySelector('.mobileMenu');
 
 hamburguerMenu.addEventListener('click', toggleHamburguerMenu);
