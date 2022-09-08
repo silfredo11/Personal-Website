@@ -19,14 +19,21 @@
 }
 
 /* Aqui inician los estilos del footer para tablet */
+.footer{
+ padding:  20px 20px 60px 20px;
+}
 .footer__container{
-    width: 80%;
+    flex-direction: row;
 }
+.footer__socialMedias{
+    justify-content: start;
+}
+
 .footer__gratitude{
-    font-size: 1.4rem;
-    line-height: 2.6rem;
-    margin: 0 0 0 30px;
+
+    margin-top: 0px;
 }
+
 /* Here start the index main */
 
 .container{

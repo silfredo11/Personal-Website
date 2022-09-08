@@ -8,24 +8,11 @@
 
 
 /* Aqui inicia los estilos para el footer en versiones desktop */
-.footer__container{
-    width: 80%;
-}
-.footer__socialMedias{
-    flex-direction: row;
-}
 
-.footer__name{
-    font-size: 1.8rem;
-}
-.footer__gratitude{
-    font-size: 1.6rem;
-    line-height: 2.8rem;
-    margin-left: 40px;
-}
-.footer__socialMedia--margin{
-    margin-left: 20px;
-}
+
+
+/* Here start main style */ 
+
 .profile__aboutme{
     width: 70%;
 }
