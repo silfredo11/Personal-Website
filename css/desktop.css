@@ -11,9 +11,7 @@
 
 /* Here start main style */ 
 
-.profile__aboutme{
-    width: 70%;
-}
+
 .coverPage{
     width: 70%;
     height: 450px;
@@ -25,14 +23,12 @@
 .card--margin{
     margin-top: 40px;
 }
-.coverPage__h1,.written__h2{
+.coverPage__h1{
     font-size: 3rem;
     line-height: 45px;
     width: 60%;
 }
-.written__h2{
-    text-align: start;
-}
+
 .coverPage__h2{
     width: 60%;
     margin-top: 20px;
@@ -51,9 +47,7 @@
 .display{
     grid-template-columns: repeat(3, 1fr);
 }
-.written{
-    width: 60%;
-}
+
 .gratitude{
     display: flex;
     flex-direction: column;
@@ -83,4 +77,19 @@
 }
 .info__subtitle--size{
     font-size: 2.8rem;
+}
+
+/* Here start aboutMe page */
+
+.Aboutme__figure{
+    margin-bottom: 50px;
+}
+.Aboutme__section{
+    padding: 0 11vh
+}
+
+.Aboutme__p{
+   
+    font-size: 2rem;
+    line-height: 30px;
 }

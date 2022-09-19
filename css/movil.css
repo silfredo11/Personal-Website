@@ -120,42 +120,6 @@ html{
     display: grid;
     margin-top: 20px;
 }
-.profile{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-bottom: 1px solid var(--border-color);
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-
-}
-.profile__image{
-    width: 204px;
-    height: 253px;
-    object-fit: cover;
-}
-.profile__h1{
-    font-size: 2.6rem;
-    font-weight: 500;
-    margin-top: 10px;
-    color: var(--prymari-color);
-    text-align: center;
-}
-.profile__aboutme{
-    color: var(--prymari-color);
-    font-size: 2.0rem;
-    font-weight: 300;
-    line-height: 30px;
-    text-align: center;
-}
-
-.written{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    border-top: none;
-    padding: 0;
-}
 
 .card{
     width: 100%;
@@ -250,6 +214,57 @@ html{
     background-image: url("https://cdn.pixabay.com/photo/2017/08/07/10/22/buildings-2602324_960_720.jpg");
 }
 
+/* Here start aboutme page */
+
+.Aboutme{
+    margin-top: 40px;
+    padding: 0 5vw 4vw 5vw;
+    background-color: var(--text-color);
+}
+.AboutmeContainer{
+    margin: 0 auto;
+    max-width: 1040px;
+    width: 100%;
+}
+.Aboutme__h1{
+    font-size: 4rem;
+    line-height: 60px;
+    font-weight: 500;
+}
+.Aboutme__figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    margin: 25px 0 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.Aboutme__img{
+    max-width: 1040px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.Aboutme__section{
+    min-height: 230px;
+    line-height: 1.6em;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.Aboutme__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+}
+.Aboutme__p{
+    margin-bottom: 1.28em;
+    font-size: 1.8rem;
+    line-height: 27px;
+}
+
 /* Here start the tutorial code */
 
 .gratitude__title{
@@ -319,7 +334,7 @@ html{
 .coverPage--frustracion{
     background-image: url("https://images.pexels.com/photos/3244604/pexels-photo-3244604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
-.coverPage__h1, .written__h2{
+.coverPage__h1{
 
     color: var(--prymari-color);
     font-weight: 500;
@@ -331,13 +346,11 @@ html{
 .coverPage__h1{
     width: 90%;
 }
-.written__h2{
-    width: 100%;
-}
+
 .info{
     width: 90%;
 }
-.info__subtitle, .written__suubtitle{
+.info__subtitle{
     font-size: 2.2rem;
     font-weight: 700;
     line-height: 35px;
@@ -345,9 +358,7 @@ html{
     border-bottom: 1px solid var(--border-color);
     margin-top: 50px;
 }
-.written__suubtitle--wight{
-    font-weight: 500;
-}
+
 .info__h4{
     font-size: 2rem;
     font-weight: 700;
@@ -355,7 +366,7 @@ html{
     margin-top: 20px;
 }
 
-.info__p, .written__p{
+.info__p{
     font-size: 2rem;
     font-weight: 400;
     line-height: 32px;
@@ -530,24 +541,23 @@ html{
     margin-left: 20px;
 }
 
-/* @media screen and (min-width:410px){
-    .footer__container{
-        flex-direction: row;
-    }
-    .footer__socialMedias{
-     flex-direction: column;
-     margin-right: 10px;
-    }
-} */
-
-
 
 @media screen and (min-width:650px){
-    
     .footer__socialMedias{
         width: 80%;
     }
-
 } 
+@media screen and (min-width: 500px){
+    .Aboutme__section{
+        padding: 0 5vw;
+    }
+    .Aboutme__figure{
+        margin-bottom: 30px;
+    }
+    .Aboutme__p{
+        margin-bottom: 1.5em;
+    }
+}
+
 
 
