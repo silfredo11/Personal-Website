@@ -1,23 +1,27 @@
 .header__label{
     display: none;
 }
+
 .header__ul{
     display: flex;
     flex-direction: row;
 }
+
 .header__li{
     margin: 0 0 0 40px;
 }
+
 .header__a, .header__name{
     font-size: 1.4rem;
 }
+
 .header__hamburguer{
     display: none;
 }
+
 .mobileMenu{
     display: none;
 }
-
 
 /* Here start the Aboutme Page */
 
@@ -29,12 +33,15 @@
 }
 
 /* Aqui inician los estilos del footer para tablet */
+
 .footer{
  padding:  20px 20px 60px 20px;
 }
+
 .footer__container{
     flex-direction: row;
 }
+
 .footer__socialMedias{
     justify-content: start;
 }
@@ -46,27 +53,19 @@
 
 /* Here start the index main */
 
-.container{
-    width: 100%;
-    height: auto;
-    display: grid;
-    margin-top: 20px;
-    place-items: center;
-}
 
-
-.tutorial{
-    width: 80%;
-}
 .tutorial__h2{
     text-align: center;
 }
+
 .tutorial__li{
     margin: 20px 0;
 }
+
 .info__img{
     height: 540px;
 }
+
 .info{
     width: 80%;
 }

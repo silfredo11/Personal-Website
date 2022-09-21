@@ -1,9 +1,8 @@
 /* Aqui inicia los estilos para el header en versiones desktop */
+
 .header__li{
     margin: 0 0 0 60px;
 }
-
-
 
 /* Aqui inicia los estilos para el footer en versiones desktop */
 
@@ -17,12 +16,11 @@
     height: 450px;
     margin-top: 20px;
 }
+
 .info{
     width: 60%;
 }
-.card--margin{
-    margin-top: 40px;
-}
+
 .coverPage__h1{
     font-size: 3rem;
     line-height: 45px;
@@ -33,48 +31,19 @@
     width: 60%;
     margin-top: 20px;
 }
-.container__info{
-    width: 80%;
-    place-self: center;
-}
-.card__subtitle{
-    font-size: 2.4rem;
-}
-.card__information{
-    font-size: 1.8rem;
-    line-height: 30px;
-}
-.display{
-    grid-template-columns: repeat(3, 1fr);
-}
 
-.gratitude{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.gratitude__title{
-    font-size: 5rem;
-}
-.gratitude__info{
-    width: 70%;
-    font-size: 1.8rem;
-}
-.container__h2{
-    font-size: 4rem;
-}
-.tutorial{
-    width: 70%;
-}
 .tutorial__h2{
     font-size: 4rem;
 }
+
 .tutorial__p{
     font-size: 2rem;
 }
+
 .tutorial__li{
     font-size: 1.8rem;
 }
+
 .info__subtitle--size{
     font-size: 2.8rem;
 }

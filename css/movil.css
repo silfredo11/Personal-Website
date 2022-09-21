@@ -101,6 +101,7 @@ html{
     text-align: center;
     z-index: 100;
 }
+
 .mobilMenu__ul{
   height: 100%;
   width: 100%;
@@ -109,12 +110,15 @@ html{
   justify-content: space-between;
   padding: 10px 0;
 }
+
 .mobilMenu__li{
     margin: 10px 0;
 }
+
 .mobilMenu__a:hover{
     border-bottom: 1px solid var(--description-color);
 }
+
 .mobilMenu__a{
     color: var(--text-color);
     font-size: 1.3rem;
@@ -123,9 +127,11 @@ html{
 }
 
 /* Here start the index main */
+
 .main{
     padding: 0 5vw;
 }
+
 .wrapper{
   max-width: 1040px;
   margin: 0 auto;
@@ -238,8 +244,6 @@ html{
 
 /* Here end card style */ 
 
-
-
 .card__image--alcoholismo{
     background-image: url("https://cdn.pixabay.com/photo/2014/08/26/20/08/man-428392_960_720.jpg");
 }
@@ -257,16 +261,19 @@ html{
     padding: 0 5vw 4vw 5vw;
     background-color: var(--text-color);
 }
+
 .AboutmeContainer{
     margin: 0 auto;
     max-width: 1040px;
     width: 100%;
 }
+
 .Aboutme__h1{
     font-size: 4rem;
     line-height: 60px;
     font-weight: 500;
 }
+
 .Aboutme__figure{
     display: flex;
     flex-direction: column;
@@ -276,12 +283,14 @@ html{
     margin-bottom: 10px;
     border-radius: 5px;
 }
+
 .Aboutme__img{
     max-width: 1040px;
     width: 100%;
     height: auto;
     border-radius: 5px;
 }
+
 .Aboutme__section{
     min-height: 230px;
     line-height: 1.6em;
@@ -289,29 +298,20 @@ html{
     display: flex;
     justify-content: center;
 }
+
 .Aboutme__info{
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 700px;
 }
+
 .Aboutme__p{
     margin-bottom: 1.28em;
     font-size: 1.8rem;
     line-height: 27px;
 }
 
-/* Here start the tutorial code */
-
-
-/* Here start the tutorial page */
-
-.card__image--liveSErver{
-    background-image: url("https://i.postimg.cc/T2D4mzSG/la-copia.jpg");
-}
-.card__image--ubuntu{
-    background-image: url("https://i.postimg.cc/2jM0S08J/ubuntu.jpg");
-}
 
 /* Here start the frustración blog */
 
@@ -320,6 +320,7 @@ html{
     display: grid;
     justify-items: center;
 }
+
 .coverPage{
     width: 100%;
     height: 350px;
@@ -329,9 +330,11 @@ html{
     display: flex;
     align-items: center;
 }
+
 .coverPage--frustracion{
     background-image: url("https://images.pexels.com/photos/3244604/pexels-photo-3244604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
+
 .coverPage__h1{
 
     color: var(--prymari-color);
@@ -341,6 +344,7 @@ html{
     text-align: center;
     margin-top: 20px;
 }
+
 .coverPage__h1{
     width: 90%;
 }
@@ -348,6 +352,7 @@ html{
 .info{
     width: 90%;
 }
+
 .info__subtitle{
     font-size: 2.2rem;
     font-weight: 700;
@@ -371,6 +376,7 @@ html{
     color: var(--prymari-color);
     margin-top: 20px;
 }
+
 .info__img{
     width: 100%;
     height: 350px;
@@ -379,18 +385,23 @@ html{
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .info__img--1{
     background-image: url("https://images.pexels.com/photos/897817/pexels-photo-897817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
+
 .info__img--2{
     background-image: url("https://static.platzi.com/media/user_upload/5%20claves%20que%20me%20ayudaron%20a%20superar%20la%20frustracion-401c7f9e-2115-40bd-baa2-a82a02637fb0.jpg");
 }
+
 .info__img--3{
     background-image: url("https://static.platzi.com/media/user_upload/nuevo%20enfoque%20fuera%20frustracion-05ab8737-c341-4b88-b368-a1aef0b583e8.jpg");
 }
+
 .info__ul{
     padding-left: 20px;
 }
+
 .info__li{
     list-style: disc;
     font-size: 2rem;
@@ -436,34 +447,53 @@ html{
 .info__img--platzi1{
     background-image: url("https://img.freepik.com/foto-gratis/imagen-primer-plano-programador-trabajando-su-escritorio-oficina_1098-18707.jpg?w=900&t=st=1662579048~exp=1662579648~hmac=e013896616dc6c113b4e2883e393787c84311a061dd6bfb345e8a3ca0301fe40");
 }
+
 .info__img--platzi2{
     background-image: url("https://img.freepik.com/foto-gratis/imagen-objetos-ingenieria-punto-vista-top-construction-trabajo-herramientas-ingenieria-vintage-efecto-filtro-retro-tono-enfoque-suave-enfoque-selectivo_1418-470.jpg?w=900&t=st=1662579332~exp=1662579932~hmac=217184b92e1e163b1d89698fe390599754464269b067ca6374ced9dad1623b7b");
 }
+
 .info__img--platzi3{
     background-image: url("https://img.freepik.com/foto-gratis/amigos-multietnicos-alegres-que-toman-selfie-grupal-divertido_1262-21109.jpg?w=900&t=st=1662579419~exp=1662580019~hmac=db3226dfb5e0c793ad149d374b4839bd55324f566e60dc904ea00aabaab1a7b1");
 }
+
+/*Here start tutodial */
+.main__tutorial{
+    display: flex;
+    justify-content: center;
+}
+
+.tutorial{
+    margin: 30px 0 0 0;
+    width: 100%;
+    padding: 0 20px;
+    max-width: 1040px;
+}
+
 /* Here start the style for live server tutorial */
 
 .tutorial__h2{
     font-size: 2.2rem;
     color: var(--prymari-color);
 }
+
 .tutorial__p{
     font-size: 1.6rem;
     line-height: 2.8rem;
     color: var(--prymari-color);
     margin-top: 20px;
 }
+
 .tutorial__ol{
-    padding-left: 20px;
     margin-top: 20px;
 }
+
 .tutorial__li{
-    list-style: decimal-leading-zero;
+    list-style: none;
     font-size: 1.6rem;
     line-height: 2.8rem;
     color: var(--prymari-color);
 }
+
 .tutorial__div{
     width: 100%;
     height: 300px;
@@ -475,12 +505,16 @@ html{
 .tutorial__div--liveServer1{
     background-image: url("https://i.postimg.cc/YqHKqDLS/3-LI.jpg");
 }
+
 .tutorial__div--liveServer2{
     background-image: url("https://i.postimg.cc/nL6SSMvL/3.png");
 }
+
 .tutorial__div--liveServer3{
     background-image: url("https://i.postimg.cc/85zc3PDq/1-2.png");
-}.tutorial__div--liveServer4{
+}
+
+.tutorial__div--liveServer4{
     background-image: url("https://i.postimg.cc/YqHKqDLS/3-LI.jpg");
 }
 
@@ -490,6 +524,7 @@ html{
     background-image: url("https://i.ibb.co/Z2jkMWv/comando.png");
     margin-bottom: 20px;
 }
+
 .tutorial__div--liveServer2{
     background-image: url("https://i.ibb.co/F5m9JNW/Carpeta.png");
 }
@@ -506,6 +541,7 @@ html{
     align-items: center;
     padding: 10px;
 }
+
 .footer__container{
     width: 100%;
     display: flex;
@@ -513,11 +549,13 @@ html{
     flex-direction: column;
     font-size: 1.3rem;
 }
+
 .footer__socialMedias{
     display: flex;
     justify-content: center;
     align-content: center;
 }
+
 .footer__gratitude{
     font-size: 100%;
     font-weight: 400;
@@ -526,6 +564,7 @@ html{
     color: white;
     margin-top: 20px;
 }
+
 .footer__socialMedia{
     display: flex;
     align-items: center;
@@ -545,6 +584,7 @@ html{
         width: 80%;
     }
 } 
+
 @media screen and (min-width: 500px){
     .Aboutme__section{
         padding: 0 5vw;
@@ -556,11 +596,13 @@ html{
         margin-bottom: 1.5em;
     }
 }
+
 @media screen and (max-width: 1170px){
     .post__article{
         margin-bottom: 5vw;
     }
 }
+
 @media screen and (min-width: 630px){
     .post{
         grid-template-rows: repeat(3, auto);
@@ -572,6 +614,7 @@ html{
         grid-column: 1 / 3;
     }
 }
+
 @media screen and (min-width: 800px){
     .firtsCard{
         flex-direction: row;
@@ -583,10 +626,12 @@ html{
         grid-column: 1 / 3;
     
     }
+
     .lastCard{
         grid-row: 3 / 4;
         grid-column: 2 / 3;
     }
+
     .firtsCard__a{
         order: 1;
         width: 50%;
@@ -594,12 +639,14 @@ html{
         margin-bottom: 0;
         position: relative;
     }
+
     .firtsCard__secondContainer{
         order: 2;
         width: 50%;
         justify-content: center;
         padding-left: 3rem;
     }
+
     .firtsCard__img{
         width: 100%;
         height: 100%;
