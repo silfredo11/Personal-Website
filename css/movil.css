@@ -80,8 +80,13 @@ html{
     display: none;
 }
 
-.header__a:hover{
-    border-bottom: 1px solid var(--description-color);
+.header__li{
+    transition: transform 600ms;
+}
+
+.header__li:hover{
+    transition: transform 600ms;
+    transform: scale(1.2);
 }
 
 .header__a{
@@ -89,7 +94,14 @@ html{
     font-size: 1.4rem;
     text-transform: none;
     font-weight: 500;
+
 }
+
+.header__a:hover{
+    border-bottom: 1px solid var(--description-color);
+}
+
+
 
 .innactive{
     display: none;
