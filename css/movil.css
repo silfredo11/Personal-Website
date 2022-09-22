@@ -87,8 +87,8 @@ html{
 .header__a{
     color: var(--text-color);
     font-size: 1.4rem;
-    text-transform: uppercase;
-    font-weight: 400;
+    text-transform: none;
+    font-weight: 500;
 }
 
 .innactive{
@@ -96,14 +96,30 @@ html{
 }
 
 .mobileMenu{
-    width: 30%;
-    height: 140px;
+    width: 50%;
+    height: calc(50vh - 61px);
     position: absolute;
-    top: 81px;
+    top: 61px;
     right: 0;
     background-color: var(--prymari-color);
     text-align: center;
     z-index: 100;
+    opacity: 100%;
+    transform: translateX(190px);
+    animation-name: mobilMenu;
+    animation-duration: 400ms;
+    animation-timing-function: ease-in-out;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mobilMenu{
+    0%{
+        transform: translateX(190px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
 }
 
 .mobilMenu__ul{
@@ -112,11 +128,7 @@ html{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 10px 0;
-}
-
-.mobilMenu__li{
-    margin: 10px 0;
+  padding: 20px 0;
 }
 
 .mobilMenu__a:hover{
@@ -125,9 +137,10 @@ html{
 
 .mobilMenu__a{
     color: var(--text-color);
-    font-size: 1.3rem;
-    text-transform: uppercase;
+    font-size: 1.6rem;
+    text-transform: none;
     font-weight: 400;
+    font-weight: bold;
 }
 
 /* Here start the index main */
