@@ -1,14 +1,15 @@
-My Personal Website
+# silfredoibarra.com
 
-En este proyecto estoy realizando una pagina web que sera my sitio web personal, donde voy a subir blogs, tutoriales y los proyecto que realice.
+Este proyecto es mi página web personal. Esta contiene los blogs que he escrito, proyectos que he realizado, tutoriales que he compartido con la comunidad de [Platzi](https://platzi.com/home "Platzi") y datos sobre mí.
 
+![silfredoibarra.com](https://i.ibb.co/RBqbFjM/mario-website.png "silfredoibarra.com")
 
-
-**Para crear esta pagina voy a usar web** 
+**Para crear este sitio web use las siguientes tecnologias:**
 
 - HTML5
 - CSS3
 - JavaScript
+-  Git
 - Variables de CSS
 - Animaciones
 - Transiciones  de CSS
@@ -17,7 +18,6 @@ En este proyecto estoy realizando una pagina web que sera my sitio web personal,
 **Herramientas que usare**
 
 -  Visual Estudio code 
--  Git
 -  GitHub
 -  Chrome 
 -  figma
@@ -25,7 +25,7 @@ En este proyecto estoy realizando una pagina web que sera my sitio web personal,
 
 ###Platzi
 
-**Quiero darle las gracias a platzi debido que los conocimientos que voy a colocar en prastica fueron adquirido en un 95% en esta plataforma. ¡GRACIAS PLATZI!**
+**Quiero darle las gracias a platzi debido a que los conocimientos que coloque en práctica para crear este sitio web fueron adquiridos en un 95% en esta plataforma. ¡GRACIAS PLATZI!**
 
 ###figma
 
