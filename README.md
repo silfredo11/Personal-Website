@@ -23,11 +23,11 @@ Este proyecto es mi página web personal. Esta contiene los blogs que he escrito
 -  figma
 
 
-###Platzi
+### Platzi
 
 **Quiero darle las gracias a platzi debido a que los conocimientos que coloque en práctica para crear este sitio web fueron adquiridos en un 95% en esta plataforma. ¡GRACIAS PLATZI!**
 
-###figma
+### figma
 
 **Tambien quiero darle las gracias a figma, este maravilloso programa me permitio crear el diseño de mi pagina web**
 
