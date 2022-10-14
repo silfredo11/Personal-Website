@@ -12,3 +12,18 @@ function toggleHamburguerMenu(){
     
 }
 
+
+const lista = [ 2, 1, 5, 8, 6, 0];
+
+
+function ordenarLista(lista){
+
+ function funcionDePrueba(A, B) {
+
+    return A - B;
+   
+  }
+  
+  const nuevaLista = lista.sort(funcionDePrueba);
+
+}
