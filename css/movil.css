@@ -512,6 +512,11 @@ html{
     background-image: url("https://cdn.pixabay.com/photo/2014/12/29/17/39/code-583073__340.jpg");
 }
 
+/*Here start the style for dos variables blog */
+
+.coverPage--dosVariebles{
+    background-image: url("https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_960_720.jpg");
+}
 .code-find{
     background-color: var(--background-code-color)  ;
     padding: 24px;
