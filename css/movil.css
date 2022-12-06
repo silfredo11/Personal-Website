@@ -103,7 +103,6 @@ html{
  
 }
 
-
 .mobileMenu{
     width: 100%;
     height: calc(100vh - 60px);
@@ -314,7 +313,7 @@ html{
 
 .Aboutme{
     padding: 8rem 5vw 4vw 5vw;
-    background-color: var(--text-color);
+    background-color: white;
 }
 
 .AboutmeContainer{
