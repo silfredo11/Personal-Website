@@ -12,14 +12,16 @@ html{
 }
 
 :root{
-    --prymari-color: #15171A;
+    --prymari-color: #1B1A17;
     --description-color: #738A94;
-    --text-color: #FFFFFF;
+    --text-color: #F0E3CA;
     --principal-text-color: #434952;
     --description-perfil-color: #90A2AA;
     --border-color: #E6E9ED;
     --content-color: #303a3e;
     --background-code-color:  #f7f6f3;
+    --progress-bar-color: #3D8BFF;
+    --orange-color: #FF8303;
 
 }
 
@@ -32,14 +34,14 @@ html{
 .progress{
     width: 0%;
     height: 100%;
-    background-color: #3D8BFF;
+    background-color: var(--progress-bar-color);
 }
 .header{
     width: 100%;
     height: 60px;
     display: flex;
     justify-content: center;
-    background-color: var(--prymari-color);
+    background-color: #1F1E1B;
     position: fixed;
     z-index: 100;
 }
@@ -57,22 +59,15 @@ html{
     align-items: center;
 }
 
-.header__logo{
-    width: 40px;
-    height: 40px;
-}
-
-.picture__image{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
-
 .header__name{
-    font-size: 1.4rem;
+    font-size: 2rem;
     color: var(--text-color);
     margin-left: 10px;
+    font-weight: bold;
+}
 
+.header__name span {
+    color: var(--orange-color);
 }
 
 .header__hamburguer{
@@ -89,8 +84,6 @@ html{
     margin-bottom: 6px;
 }
 
-
-
 .header__ul{
     display: none;
 }
@@ -98,7 +91,6 @@ html{
 .header__a{
     color: var(--text-color);
     font-size: 1.4rem;
-    text-transform: none;
     font-weight: bold;
 
 }
@@ -161,24 +153,18 @@ html{
 }
 
 .mobilMenu__a{
-    color: var(--text-color);
+    color: #F0E3CA;
     font-size: 2.4rem;
     text-transform: none;
     font-weight: 400;
 }
 
 .son1{
-  
     width: 25px;
     height: 1px;
     border-radius: 0;
-  
-    transform: rotate(45deg);
+    transform: rotate(46deg);
     margin: 0;
-  
-   
-   
-  
 }
 
 .son2{
@@ -192,8 +178,6 @@ html{
     margin: 0;
     border-radius: 0;
     height: 1px;
-    
-    
 }  
 
 
@@ -690,7 +674,7 @@ html{
     font-weight: 400;
     line-height: 21px;
     text-align: center;
-    color: white;
+    color: var(--text-color);
     margin-top: 20px;
 }
 
