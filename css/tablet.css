@@ -69,3 +69,11 @@
 .info{
     width: 80%;
 }
+
+/* .wrapper{
+    width: 100%;
+} */
+
+.Card{
+    min-width: 400px;
+}

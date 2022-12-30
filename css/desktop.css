@@ -64,9 +64,14 @@
 
 .card{
     transition: transform 500ms;
+    min-width: 400px;
 }
 
 .card:hover{
     transform: scale(1.1);
     transition: transform 500ms;
+}
+
+.post{
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
