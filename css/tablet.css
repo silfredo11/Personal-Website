@@ -35,7 +35,7 @@
 /* Aqui inician los estilos del footer para tablet */
 
 .footer{
- padding:  20px 20px 60px 20px;
+ padding:  20px 20px 30px 20px;
 }
 
 .footer__container{
@@ -47,7 +47,7 @@
 }
 
 .footer__gratitude{
-
+    max-width: 400px;
     margin-top: 0px;
 }
 

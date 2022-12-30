@@ -6,7 +6,9 @@
 
 /* Aqui inicia los estilos para el footer en versiones desktop */
 
-
+.footer__gratitude{
+    max-width: 600px;
+}
 
 /* Here start main style */ 
 
