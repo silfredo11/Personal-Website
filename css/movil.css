@@ -34,6 +34,7 @@ html{
 .progress{
     width: 0%;
     height: 100%;
+    background-color: #3D8BFF;
     background-color: var(--progress-bar-color);
 }
 .header{
@@ -61,12 +62,14 @@ html{
 
 .header__name{
     font-size: 2rem;
+    color: #F0E3CA;
     color: var(--text-color);
     margin-left: 10px;
     font-weight: bold;
 }
 
 .header__name span {
+    color:#FF8303 ;
     color: var(--orange-color);
 }
 
@@ -80,6 +83,7 @@ html{
     width: 25px;
     height: 2px;
     border-radius: 25%;
+    background-color: #F0E3CA;
     background-color: var(--text-color);
     margin-bottom: 6px;
 }
@@ -89,6 +93,7 @@ html{
 }
 
 .header__a{
+    color: #F0E3CA;
     color: var(--text-color);
     font-size: 1.4rem;
     font-weight: bold;
@@ -97,7 +102,9 @@ html{
 
 .header__a:hover{
     padding: 5px 10px;
+    background-color: #F0E3CA;
     background-color: var(--text-color);
+    color: #303a3e;
     color: var(--content-color);
     border-radius: 15px;
  
@@ -109,6 +116,7 @@ html{
     position: absolute;
     top: 60px;
     right: 0;
+    background-color: #1B1A17;
     background-color: var(--prymari-color);
     text-align: center;
     z-index: 100;
@@ -148,11 +156,13 @@ html{
 }
 
 .mobilMenu__a:hover{
+    border-bottom:  #738A94;
     border-bottom: 1px solid var(--description-color);
 }
 
 .mobilMenu__a{
     color: #F0E3CA;
+    color: var(--text-color);
     font-size: 2.4rem;
     text-transform: none;
     font-weight: 400;
@@ -209,6 +219,7 @@ html{
     margin: 0 0 40px;
     padding: 20px 20px 40px 20px;
     min-height: 220px;
+    border-bottom: #E6E9ED;
     border-bottom: 1px solid  var(--border-color);
     background-size: cover;
     position: relative;
@@ -245,6 +256,7 @@ html{
 .card__h2{
     margin: 15px 0 0;
     font-size: 1.9rem;
+    color: #1B1A17;
     color: var(--prymari-color);
     font-weight: 500;
     line-height: 2.85rem;
@@ -253,6 +265,7 @@ html{
 .card__description{
     font-size: 1.6rem;
     max-width: 56em;
+    color: #1B1A17;
     color: var(--prymari-color);
     font-weight: 300;
     margin-top: 15px;
@@ -287,6 +300,7 @@ html{
 }
 
 .card__authorName{
+    color: #434952;
     color: var(--principal-text-color);
     font-size: 1.2rem;
     line-height: 1.8rem;
@@ -294,6 +308,7 @@ html{
 }
 
 .card__authorData{
+    color: #738A94;
     color: var(--description-perfil-color);
     font-size: 1.2rem;
     font-weight: 400;
@@ -392,7 +407,7 @@ html{
 }
 
 .coverPage__h1{
-
+    color: #1B1A17;
     color: var(--prymari-color);
     font-weight: 500;
     font-size: 2.6rem;
@@ -413,7 +428,9 @@ html{
     font-size: 2.2rem;
     font-weight: 700;
     line-height: 35px;
+    color: #1B1A17;
     color: var(--prymari-color);
+    border-bottom: #E6E9ED ;
     border-bottom: 1px solid var(--border-color);
     margin-top: 50px;
 }
@@ -422,6 +439,7 @@ html{
     font-size: 2rem;
     font-weight: 700;
     line-height: 30px;
+    color: #1B1A17;
     color: var(--prymari-color);
     margin-top: 40px;
 }
@@ -429,6 +447,7 @@ html{
 .info__h4{
     font-size: 2rem;
     font-weight: 700;
+    color: #1B1A17;
     color: var(--prymari-color);
     margin-top: 20px;
 }
@@ -437,6 +456,7 @@ html{
     font-size: 2rem;
     font-weight: 400;
     line-height: 32px;
+    color: #1B1A17;
     color: var(--prymari-color);
     margin-top: 20px;
 }
@@ -477,6 +497,7 @@ html{
     font-size: 2rem;
     font-weight: 400;
     line-height: 32px;
+    color: #1B1A17;
     color: var(--prymari-color);
     margin-top: 20px;
 }
@@ -538,6 +559,7 @@ html{
     background-image: url("https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_960_720.jpg");
 }
 .code-find{
+    background-color: #f7f6f3;
     background-color: var(--background-code-color)  ;
     padding: 24px;
     font-size: 1.6rem;
@@ -554,6 +576,7 @@ html{
 
 .info__p--border{
     font-size: 1.6rem;
+    border-left: #303a3e;
     border-left:2px solid var(--content-color);
     padding:  0 0 0 16px;
     
@@ -587,12 +610,14 @@ html{
 
 .tutorial__h2{
     font-size: 2.2rem;
+    color: #1B1A17;
     color: var(--prymari-color);
 }
 
 .tutorial__p{
     font-size: 1.6rem;
     line-height: 2.8rem;
+    color: #1B1A17;
     color: var(--prymari-color);
     margin-top: 20px;
 }
@@ -605,6 +630,7 @@ html{
     list-style: none;
     font-size: 1.6rem;
     line-height: 2.8rem;
+    color: #1B1A17;
     color: var(--prymari-color);
 }
 
@@ -648,6 +674,7 @@ html{
 .footer{
     width: 100%;
     height: auto;
+    background-color: #1B1A17;
     background-color: var(--prymari-color);
     margin-top: 50px;
     display: flex;
@@ -675,6 +702,7 @@ html{
     font-weight: 400;
     line-height: 21px;
     text-align: center;
+    color: #f7f6f3;
     color: var(--text-color);
     margin-top: 20px;
 }
@@ -685,6 +713,7 @@ html{
 }
 
 .footer__a{
+    color: #f7f6f3;
     color: var(--text-color);
     font-size: 100%;
     font-weight: 400;
