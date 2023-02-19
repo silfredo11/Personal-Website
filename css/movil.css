@@ -113,6 +113,8 @@ html{
 .mobileMenu{
     width: 100%;
     height: calc(100vh - 60px);
+
+
     position: absolute;
     top: 60px;
     right: 0;
@@ -562,6 +564,11 @@ html{
 .coverPage--comoSupereMiEstancamiento{
     background-image: url("https://images.unsplash.com/photo-1521475711856-a80d1d3845a4?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=3600");
 }
+
+.coverPage--aprendeSinCompararteYSinPresionarte{
+    background-image: url("https://images.unsplash.com/photo-1504194104404-433180773017?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=3600");
+}
+
 .code-find{
     background-color: #f7f6f3;
     background-color: var(--background-code-color)  ;
