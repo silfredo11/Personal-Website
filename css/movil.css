@@ -569,6 +569,10 @@ html{
     background-image: url("https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3600");
 }
 
+.coverPage--LogreConseguirUnTrabajoRemotoEnChina{
+    background-image: url("https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3600");
+}
+
 .code-find{
     background-color: #f7f6f3;
     background-color: var(--background-code-color)  ;
